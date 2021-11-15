@@ -13,42 +13,50 @@
     </body>
     </html>
  
-    <!-- <button onclick="startOver()" id="start-over">Start</button>  -->
+    <button onclick="startOver()" id="start-over">Start</button> 
     <!--fist side image and text-->
     <div id="start-content" class="start-content w-full h-screen bg-center bg-cover " style="background-image: url(./resort.jpg);">        
       <h1 class="flex justify-center  text-4xl"> Välkommen till berget </h1> 
          <h3 class="flex justify-center m-4 text-lg"> </h3>     
           <p class=" flex justify-center">Välj något av dom alternativen som passar dig bäst genom att klicka på någon av knapparna</p>   
           <!--Btn, user makes a choice-->
-     <div class="btn flex justify-center">    
+    <div class="btn flex justify-center">    
         <button id="lift" onclick="skiLift()" class="flex justify-center m-6 animate-pulse">Åk ner här ifrån </button>        
         <button onclick="walk()" class="flex justify-center m-6 animate-pulse ">Sätt på stighudarna och gå längre upp</button>    
-        </div>         
-         </div>      
+      </div>         
+     </div>      
          
-        </div>
+    </div>
         <!--When u choose the button walk second content (walk way)-->         
-        <div id="second-content2" class="flex w-full h-screen bg-center bg-cover" style="background-image: url(./walk.jpg);">
-          <div class="flex justify-center align-center pointer-events-auto ">
-            <button onclick="sunOverThere()" class="mr-6  animate-pulse color-grey-900">Det börjar bli brant, du ser solen slå i berget lite längre bort och det ser inte lika brant ut. <br>
-              klicka här för att välja den vägen</button>
+    <div id="second-content2" class="flex w-full h-screen bg-center bg-cover" style="background-image: url(./walk.jpg);">
+     <div class="flex justify-center align-center pointer-events-auto ">
+        <button onclick="sunOverThere()" class="mr-6  animate-pulse color-grey-900">Det börjar bli brant, du ser solen slå i berget lite längre bort och det ser inte lika brant ut. <br>
+           klicka här för att välja den vägen</button>
               
-            </div>
-          </div> 
+     </div>
+    </div> 
           <!--last side the user can do something on(the walk)  -->
-          <div id="third-content" class="flex w-full h-screen bg-center bg-cover" style="background-image: url(./sunWalk.jpg);" >
+    <div id="third-content" class="flex w-full h-screen bg-center bg-cover" style="background-image: url(./sunWalk.jpg);" >
             <button onclick="lastBtn()" class="bg-blue-400 w-32 ">Klar</button>
-          </div>
+    </div>
           <!--Last side white the walk-->
-          <div id="last-content" class="flex h-full w-full bg-center bg-cover" style="background-image: url(./niceImage.jpg);">          
+    <div id="last-content" class="flex h-full w-full bg-center bg-cover" style="background-image: url(./niceImage.jpg);">          
             <h1>Tack och slut</h1>       
-          </div>
+    </div>
           <!--Second content white (ski way)-->  
-           <div id="second-content" class=" flex w-full h-screen bg-center bg-cover" style="background-image: url(./skiresort.jpg);">     
-             <div class="flex justify-center  ">          
-                <button onclick="jump()" class=" m-6 animate-pulse"> Du hoppar och hoppas på det bästa</button>
-                <button onclick="theSide()" class="m-6 animate-pulse">Du åker på sidan av och tänker afterskin lockar mer än sjukhuset</button> 
-             </div>
-          
+    <div id="second-content" class=" flex w-full h-screen bg-center bg-cover" style="background-image: url(./skiresort.jpg);">     
+      <div class="flex justify-center  ">          
+          <button onclick="jump()" class=" m-6 animate-pulse"> Du hoppar och hoppas på det bästa</button>
+          <button onclick="theSide()" class="m-6 animate-pulse">Du åker på sidan av och tänker afterskin lockar mer än sjukhuset</button> 
+      </div>
+    </div>
+                  <!--jump picture 3 page white ski-->
+    <div id="skiThird" class="flex bg-black h-screen w-full bg-center bg-cover" style="background-image: url(./backflip.jpg);"> 
+       <button onclick="theEnd()" class="text-white p-6">Nästa grej</button>
+    </div>
+          <!--Last jump way page -->
+    
+
+             
         </body>
         </html>

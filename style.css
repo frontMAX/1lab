@@ -26,9 +26,22 @@
     background-repeat: no-repeat;
 }
 
-#last-content {
+ #last-content {
     position: absolute;
-      background-size: cover;
-      background-repeat: no-repeat;
-      top: 0; left: 0; bottom: 0; right: 0;
+     top: 0; left: 0; bottom: 0; right: 0;
+     
+}   
+
+#skiThird {
+    position: absolute;
+    background-repeat: no-repeat;    
+    background-size: 70%;
+     
+}
+
+#wrongWay {
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    
 }
