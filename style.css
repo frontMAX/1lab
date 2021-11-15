@@ -21,7 +21,14 @@
     padding: 10px 20px;
 }
 
-#second-content2 {
+#second-content2 , #third-content {
     background-position: bottom;
     background-repeat: no-repeat;
+}
+
+#last-content {
+    position: absolute;
+      background-size: cover;
+      background-repeat: no-repeat;
+      top: 0; left: 0; bottom: 0; right: 0;
 }
