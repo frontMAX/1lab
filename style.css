@@ -1,16 +1,3 @@
-/* * {
-    padding: 0;
-}
-
-#start-content {
-    background-image: url(./resort.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
-} */
-
 
 #start-over {
     position: absolute;
@@ -33,15 +20,33 @@
 }   
 
 #skiThird {
-    position: absolute;
-    background-repeat: no-repeat;    
-    background-size: 70%;
-     
-}
+    
+    background-size: 50%;
+    
+ }
 
 #wrongWay {
     position: absolute;
     background-repeat: no-repeat;
     background-size: 40%;
     
+}
+
+#afterSki {
+    background-size: 60%;
+}
+
+#ear {
+    
+    left: 45rem;
+    top: 9.5rem;
+    width: 3rem;
+    height: 1.5rem;
+    
+    position: absolute;
+}
+
+#btn1 {
+    width:3rem ;
+    height: 1.5rem;
 }
