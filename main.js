@@ -109,7 +109,7 @@ function sunGlasses() {
 
 
 
-
+/** home button */
 function startOver() {
     second.style.display = "none"
     second2.style.display = "none"
@@ -126,26 +126,6 @@ function startOver() {
 
 
 
-
-
-
-//     const answer = prompt ('ange ditt namn');
-//      username = answer;
-//      prepareStory ();
-// }
-// function prepareStory () {
-//     alert('asdada' '+ username +' 'asdadd');
-
-// //     const answer = prompt ('vad vill du göra? gi till vardagsrummer eller köket? skriv "vardagsrummet" eller "köket"')
-// //     if (answer === 'vardagsrummet'){
-// //         enterlivingroom();
-// //     } else if (answer === 'köket') {
-// //         enterkitchen ();
-// //     } else {
-// //         alert ('var god ange något av dom')
-// //         prepareStory();    
-// //     }   
-// // }
 
 
 
