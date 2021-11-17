@@ -5,31 +5,31 @@ let second;
 /** @type {HTMLElement} */
 let second2;
 /** @type {HTMLElement} */
-let third; 
+let third;
 /** @type {HTMLElement} */
 let lastWalk;
 /** @type {HTMLElement} */
 let skiThird;
-/** @type {HTMLElement} */ 
+/** @type {HTMLElement} */
 let lastJump;
-/** @type {HTMLElement} */ 
-let afterSki; 
+/** @type {HTMLElement} */
+let afterSki;
 /** @type {HTMLElement} */
 let finish;
 
 
-window.onload = main 
+window.onload = main
 /** start of the program */
 function main() {
-  start   = document.getElementById("start-content");
-  second   = document.getElementById('second-content');
-  second2  = document.getElementById('second-content2');
-  third  = document.getElementById('third-content');
-  lastWalk   = document.getElementById('last-content');
-  skiThird  = document.getElementById('skiThird');
-  lastJump = document.getElementById('lastJump');
-  afterSki = document.getElementById('afterSki');
-  finish = document.getElementById('rightWay');
+    start = document.getElementById("start-content");
+    second = document.getElementById('second-content');
+    second2 = document.getElementById('second-content2');
+    third = document.getElementById('third-content');
+    lastWalk = document.getElementById('last-content');
+    skiThird = document.getElementById('skiThird');
+    lastJump = document.getElementById('lastJump');
+    afterSki = document.getElementById('afterSki');
+    finish = document.getElementById('rightWay');
     second.style.display = "none"
     second2.style.display = "none"
     third.style.display = "none"
@@ -38,11 +38,11 @@ function main() {
     lastJump.style.display = "none"
     afterSki.style.display = "none"
     finish.style.display = "none"
-    
+
 }
 
- function addEventListener(){  
- 
+function addEventListener() {
+
 }
 
 /**ski way second page*/
@@ -51,21 +51,21 @@ function skiLift() {
     if (start.style.display = "block") {
         start.style.display = "none"
         second.style.display = "block"
-  }   
+    }
 }
 /** walk way second page*/
 function walk() {
     if (start.style.display = "block") {
         start.style.display = "none"
         second2.style.display = "block"
-    } 
+    }
 }
 /** walk way third page*/
 function sunOverThere() {
     if (second2.style.display = "block") {
         second2.style.display = "none"
         third.style.display = "block"
-    } 
+    }
 }
 /**  walk way Last page*/
 function lastBtn() {
@@ -97,7 +97,7 @@ function theSide() {
     }
 
 }
-   /** last page on the walk */
+/** last page on the walk */
 function sunGlasses() {
     if (lastWalk.style.display = "block") {
         lastWalk.style.display = "none"
@@ -122,15 +122,3 @@ function startOver() {
     finish.style.display = "none"
 
 }
-
-
-
-
-
-
-
-
-
-
-
-

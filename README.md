@@ -6,4 +6,10 @@ En slut destination finns och dit ska man komma genom att välja någon av dessa
 
 Jag har valt att ge information till användaren genom text på varje steg och att man gör sitt val genom att klicka på en knapp för att ta sig dit man vill. 
  
-                                  
+
+
+DEMO { https://frontmax.github.io/1lab/ }
+
+
+
+Max Andersson
