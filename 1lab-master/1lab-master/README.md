@@ -8,7 +8,7 @@ Jag har valt att ge information till användaren genom text på varje steg och a
  
 
 
-DEMO [ https://frontmax.github.io/1lab/  ]
+DEMO [ https://frontmax.github.io/1lab/ ]
 
 
 
