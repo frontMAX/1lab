@@ -35,22 +35,3 @@
 #afterSki {
     background-size: 60%;
 }
-
-#ear {
-
-max-width: 1000px;
-display: block;
-position: relative;
-margin: 0 auto;
-height: 200px;
-    
-}
-
-#btn1 {
-    
-    width:3rem ;
-    height: 1.5rem;
-    position: absolute;
-    left: 24rem;
-    top: 8.5rem;
-}
